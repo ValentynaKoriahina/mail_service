@@ -30,7 +30,10 @@ The application will start on port 8082. In development mode from the developmen
 
 ##  RabbitMQ Queue configuration in third-party services to send messages
 
-For your service to work properly, you must configure a RabbitMQ queue with the following parameters:
+For your service to work properly, you have to configure a RabbitMQ queue with the following parameters:
 - Queue creation: `emailQueueue`.
 - The queue must be declared with the parameter  `durable: true`. 
+
+Example of integrating a third-party service to send notifications via messege broker
+https://github.com/ValentynaKoriahina/nodejs-task4.git
 
